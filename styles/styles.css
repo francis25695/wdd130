@@ -1,16 +1,24 @@
+:root {
+    --primary-color: darkblue;
+    --nav-font-color: white;
+    --font-color: black;
+    --h1-font-color: darkblue;
+    --aside-p-font-color: black;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--nav-font-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--h1-font-color);
 }
 
 img {
@@ -36,7 +44,7 @@ aside {
     /* 1️⃣ */
     padding: 1rem;
     background-color: #eee;
-    color: black;
+    color: var(--aside-p-font-color);
     text-align: center;
 }
 
