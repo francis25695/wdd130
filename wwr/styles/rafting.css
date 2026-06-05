@@ -6,8 +6,8 @@
 
 :root {
     --primary-color: white;
-    --secondary-color: darkorange;
-    --accent1-color: forestgreen;
+    --secondary-color: #b35900;
+    --accent1-color: #166016;
     --accent2-color: purple;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -39,7 +39,7 @@ nav {
 }
 
 header img {
-    width: 80px;
+    width: 180px;
     height: auto;
 }
 
