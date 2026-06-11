@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main>
+        <h1>✅Conflict Analysis Survey</h1>
+        <form action="">
+            <!-- if the response or output is required, add the word required at the end of name "" example Name"q1" required -->
+            <div class="quiz-item">
+                <label for="q1">1. What do you understand by the word conflict?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item">
+                <label for="q2">2. What are the possible causes of conflict in your
+                    community?</label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+            <div class="quiz-item">
+                <label for="q3">3. What forms of conflict do you face in your community?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one...</option>
+                    <option value="a">A. Land conflict</option>
+                    <option value="b">B. Political conflict</option>
+                    <option value="c">C. Cross-border conflict</option>
+                    <option value="d">D. Others</option>
+                </select>
+            </div>
+            <div class="quiz-item">
+                <label for="q4">4. On a scale of 1 - 10, how would you rate the level of conflict in
+                    your community?</label>
+                <code>Scale: 1 2 3 4 5 6 7 8 9 10</code>
+                <!-- when you use <code> it will display a code block in your question -->
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit Response</button>
+        </form>
+    </main>
+</body>
+
+</html>
